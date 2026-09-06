@@ -1,0 +1,6 @@
+streamlit==1.63.0
+pandas==3.0.5
+numpy==2.5.2
+matplotlib==3.11.1
+pulp==3.3.2
+kneed==0.8.6

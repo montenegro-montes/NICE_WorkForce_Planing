@@ -1,0 +1,43 @@
+role_id,role_name,category,mapped_job,salary_model,min_salary,avg_salary,max_salary,overhead,cost_min,cost_avg,cost_max,confidence,source_id,last_update,notes
+DD-WRL-001,Cybersecurity Architecture,DD,Security Architect,direct,119000,165000,228000,0.35,160650.0,222750.0,307800.0,High,S3,2026-06-30,Direct market profile range.
+DD-WRL-002,Enterprise Architecture,DD,Enterprise Architect,direct,90000,120000,165000,0.3,117000.0,156000.0,214500.0,High,S1,2026-06-30,Direct NICCS average; range inferred.
+DD-WRL-003,Secure Software Development,DD,Software Developer (Secure Coding),direct,94000,130000,179000,0.26,118440.0,163800.0,225540.0,High,S3,2026-06-30,Direct market profile range.
+DD-WRL-004,Secure Systems Development,DD,Systems Engineer (Security),mapped,90000,125000,172000,0.28,115200.0,160000.0,220160.0,High,S3,2026-06-30,Mapped to security systems engineering.
+DD-WRL-005,Software Security Assessment,DD,Secure Software Assessor,direct,90000,100000,130000,0.28,115200.0,128000.0,166400.0,High,S1,2026-06-30,Direct NICCS average; range inferred and cross-checked with software QA/security assessment.
+DD-WRL-006,Systems Requirements Planning,DD,Systems Engineer (Security),mapped,90000,125000,172000,0.28,115200.0,160000.0,220160.0,Medium,S3,2026-06-30,Mapped to systems engineering and requirements planning.
+DD-WRL-007,Systems Testing and Evaluation,DD,Software and Quality Assurance Engineer / Tester,mapped,94000,130000,179000,0.26,118440.0,163800.0,225540.0,Medium,S3,2026-06-30,Mapped to secure software testing and evaluation.
+DD-WRL-008,Technology Research and Development,DD,AI Security Engineer,estimated,117000,162000,224000,0.45,169650.0,234900.0,324800.0,Medium,S3,2026-06-30,Estimated from AI Security Engineer / research profile.
+DD-WRL-009,Operational Technology (OT) Cybersecurity Engineering,DD,Security Engineer (Blue Team),estimated,99000,138000,190000,0.33,131670.0,183540.0,252700.0,Medium,S3,2026-06-30,Estimated for OT cybersecurity engineering from security engineering profile.
+IN-WRL-001,Cybercrime Investigation,IN,Cyber Crime Investigator,direct,76000,105000,145000,0.28,97280.0,134400.0,185600.0,High,S3,2026-06-30,Direct market profile range.
+IN-WRL-002,Digital Evidence Analysis,IN,Digital Forensics Examiner,mapped,85000,118000,163000,0.28,108800.0,151040.0,208640.0,High,S3,2026-06-30,Mapped to digital forensics examiner profile.
+IO-WRL-001,Data Analysis,IO,Data Analyst,direct,80000,100000,130000,0.28,102400.0,128000.0,166400.0,High,S1,2026-06-30,Direct NICCS average; range inferred.
+IO-WRL-002,Database Administration,IO,Database Administrator,direct,79000,110000,152000,0.28,101120.0,140800.0,194560.0,High,S3,2026-06-30,Direct market profile range.
+IO-WRL-003,Knowledge Management,IO,Knowledge Manager,direct,70000,90000,120000,0.28,89600.0,115200.0,153600.0,High,S1,2026-06-30,Direct NICCS average; range inferred.
+IO-WRL-004,Network Operations,IO,Network Operations Specialist,direct,72000,100000,138000,0.28,92160.0,128000.0,176640.0,High,S3,2026-06-30,Direct market profile range; NICCS average also available.
+IO-WRL-005,Systems Administration,IO,Systems Administrator (Security),direct,66000,92000,127000,0.25,82500.0,115000.0,158750.0,High,S3,2026-06-30,Direct market profile range.
+IO-WRL-006,Systems Security Analysis,IO,Systems Security Analyst,direct,90000,100000,130000,0.3,117000.0,130000.0,169000.0,High,S1,2026-06-30,Direct NICCS average; range inferred.
+IO-WRL-007,Technical Support,IO,Technical Support Specialist,direct,50000,60000,75000,0.25,62500.0,75000.0,93750.0,High,S1,2026-06-30,Direct NICCS average; range inferred.
+OG-WRL-001,Communications Security (COMSEC) Management,OG,Communications Security Manager,direct,56000,70000,91000,0.28,71680.0,89600.0,116480.0,High,S1,2026-06-30,Direct NICCS career profile; range inferred around provided average.
+OG-WRL-002,Cybersecurity Policy and Planning,OG,Cybersecurity Policy Analyst,direct,76000,105000,145000,0.3,98800.0,136500.0,188500.0,High,S3,2026-06-30,Direct market profile range.
+OG-WRL-003,Cybersecurity Workforce Management,OG,Cybersecurity Workforce Developer / Trainer,mapped,65000,90000,124000,0.28,83200.0,115200.0,158720.0,High,S3,2026-06-30,Mapped to workforce developer/trainer.
+OG-WRL-004,Cybersecurity Curriculum Development,OG,Cybersecurity Workforce Developer / Trainer,mapped,65000,90000,124000,0.28,83200.0,115200.0,158720.0,Medium,S3,2026-06-30,Mapped to training/curriculum profile.
+OG-WRL-005,Cybersecurity Instruction,OG,Cybersecurity Instructor,direct,60000,80000,110000,0.28,76800.0,102400.0,140800.0,Medium,S1,2026-06-30,Direct NICCS average; range inferred.
+OG-WRL-006,Cybersecurity Legal Advice,OG,Cyber Legal Advisor,direct,94000,130000,179000,0.28,120320.0,166400.0,229120.0,High,S1,2026-06-30,Direct NICCS career profile; range aligned with comparable senior advisory roles.
+OG-WRL-007,Executive Cybersecurity Leadership,OG,Chief Information Security Officer (CISO),mapped,204000,284000,392000,0.32,269280.0,374880.0,517440.0,High,S3,2026-06-30,Mapped to CISO/executive cybersecurity leadership.
+OG-WRL-008,Privacy Compliance,OG,Privacy Officer,direct,85000,118000,163000,0.28,108800.0,151040.0,208640.0,High,S3,2026-06-30,Direct market profile range; NICCS average salary also available.
+OG-WRL-009,Product Support Management,OG,Cybersecurity Manager,estimated,101000,140000,193000,0.32,133320.0,184800.0,254760.0,Medium,S3,2026-06-30,Estimated from cybersecurity management profile.
+OG-WRL-010,Program Management,OG,Cybersecurity Manager,mapped,101000,140000,193000,0.32,133320.0,184800.0,254760.0,High,S3,2026-06-30,Mapped to program/cybersecurity management profile.
+OG-WRL-011,Secure Project Management,OG,Cybersecurity Manager,mapped,101000,140000,193000,0.32,133320.0,184800.0,254760.0,Medium,S3,2026-06-30,Mapped to secure project/program management.
+OG-WRL-012,Security Control Assessment,OG,GRC / Compliance Analyst,mapped,79000,110000,152000,0.28,101120.0,140800.0,194560.0,Medium,S3,2026-06-30,Mapped to security control assessment / compliance.
+OG-WRL-013,Systems Authorization,OG,GRC / Compliance Analyst,mapped,79000,110000,152000,0.28,101120.0,140800.0,194560.0,Medium,S3,2026-06-30,Mapped to authorization and risk/compliance functions.
+OG-WRL-014,Systems Security Management,OG,IT Security Manager,direct,116000,160000,220000,0.32,153120.0,211200.0,290400.0,High,S1,2026-06-30,Direct NICCS average for IT Security Manager; range inferred.
+OG-WRL-015,Technology Portfolio Management,OG,Cybersecurity Manager,estimated,101000,140000,193000,0.32,133320.0,184800.0,254760.0,Medium,S3,2026-06-30,Estimated from cybersecurity management profile.
+OG-WRL-016,Technology Program Auditing,OG,GRC / Compliance Analyst,mapped,79000,110000,152000,0.28,101120.0,140800.0,194560.0,Medium,S3,2026-06-30,Mapped to technology audit/compliance role.
+OG-WRL-017,Cybersecurity Supply Chain Risk Management,OG,GRC / Compliance Analyst,estimated,79000,110000,152000,0.28,101120.0,140800.0,194560.0,Medium,S3,2026-06-30,Estimated from GRC/compliance profile for supply-chain risk.
+PD-WRL-001,Defensive Cybersecurity,PD,Cyber Defense Analyst / SOC Analyst,direct,69000,96000,132000,0.33,91770.0,127680.0,175560.0,High,S3,2026-06-30,Direct market profile range.
+PD-WRL-002,Digital Forensics,PD,Digital Forensics Examiner,direct,85000,118000,163000,0.28,108800.0,151040.0,208640.0,High,S3,2026-06-30,Direct market profile range.
+PD-WRL-003,Incident Response,PD,Incident Responder,direct,85000,118000,163000,0.33,113050.0,156940.0,216790.0,High,S3,2026-06-30,Direct market profile range.
+PD-WRL-004,Infrastructure Support,PD,Systems Engineer (Security),mapped,90000,125000,172000,0.28,115200.0,160000.0,220160.0,Medium,S3,2026-06-30,Mapped to infrastructure/security systems engineering.
+PD-WRL-005,Insider Threat Analysis,PD,Insider Threat Analyst,direct,64000,80000,104000,0.28,81920.0,102400.0,133120.0,High,S1,2026-06-30,Direct NICCS average; range inferred.
+PD-WRL-006,Threat Analysis,PD,Threat Intelligence Analyst,mapped,91000,127000,175000,0.35,122850.0,171450.0,236250.0,High,S3,2026-06-30,Mapped to threat intelligence analysis.
+PD-WRL-007,Vulnerability Analysis,PD,Vulnerability Analyst,direct,85000,118000,163000,0.33,113050.0,156940.0,216790.0,High,S3,2026-06-30,Direct market profile range.
