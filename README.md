@@ -6,10 +6,6 @@ The application connects NICE Work Roles, Tasks, Knowledge, and Skills with work
 
 The ransomware case study uses the 2024 and 2025 ENISA Threat Landscape editions, ATTACK-BERT and MiniLM, and three semantic-context variants. Greedy and mixed-integer linear programming (MILP) methods support comparisons of workforce cost and capability coverage.
 
-![Budget–coverage curves and investment indicators for the 2024 ransomware scenario, Variant A](docs/figures/threat.png)
-
-*Paper example: budget–coverage evolution, investment indicators, and workforce composition for the 2024 ransomware scenario under Variant A.*
-
 ## Run the Workforce application
 
 Use **Python 3.12**. From the repository root:
@@ -70,6 +66,18 @@ Select additions within a total annual budget, accounting for the cost of the cu
 ![Workforce additions and capability gains for a total annual budget of 500000 dollars](docs/figures/budget.png)
 
 *Budget-constrained workforce planning under a total annual budget of $500,000.*
+
+### Threat Scenarios: ransomware in 2024
+
+The paper's threat-planning example uses **Ransomware**, the **2024 ENISA Threat Landscape**, and **Variant A (technique-only context)**. ATTACK-BERT associates the scenario's ATT&CK techniques with NICE Tasks, which are then linked to Work Roles for budget-constrained planning.
+
+The view compares Task Coverage, Weighted Task Coverage, Technique Coverage, and Hybrid Coverage as the annual budget increases. Its investment panel identifies the diminishing-returns point and the workforce composition at that point.
+
+![Threat Scenarios: coverage curves, investment indicators, and workforce composition for ransomware in 2024](docs/figures/threat.png)
+
+*Budget–coverage evolution and workforce planning for the 2024 ransomware scenario under Variant A.*
+
+In the illustrated configuration, the diminishing-returns budget is **$1.25 million**, with **73.3% Hybrid Coverage**. The selected workforce costs **$1,225,160 annually** and contains **nine Work Roles**, including seven additions to the initial team. These values describe the paper example shown in the figure.
 
 ## Repository layout
 
