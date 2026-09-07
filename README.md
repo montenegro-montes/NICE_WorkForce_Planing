@@ -1,6 +1,6 @@
 # Cost-Aware Cybersecurity Workforce Planning
 
-A Streamlit decision-support application accompanying **Cost-Aware Cybersecurity Workforce Planning Using the NICE Workforce Framework**, by José A. Montenegro and Ruben Rios.
+A Streamlit decision-support application for cost-aware cybersecurity workforce planning using the NICE Workforce Framework.
 
 The application connects NICE Work Roles, Tasks, Knowledge, and Skills with workforce costs and budget constraints. The threat-planning pipeline maps ENISA threat scenarios to MITRE ATT&CK techniques, retrieves related NICE Tasks using sentence embeddings, and projects those Tasks onto Work Roles.
 
@@ -45,7 +45,7 @@ Paths are resolved relative to the repository by [configuration.py](web-force/co
 
 ## Application views
 
-The interface provides organization configuration, workforce transition analysis, Work Role recommendations, budget planning, and threat scenarios. The screenshots below are original figures from the paper; their values illustrate the configurations shown.
+The interface provides organization configuration, workforce transition analysis, Work Role recommendations, budget planning, and threat scenarios. The screenshots below illustrate example application configurations.
 
 ### Workforce transition analysis
 
@@ -57,7 +57,7 @@ Compare current and target Work Roles, annual employment costs, and changes in T
 
 ### Work Role recommendations
 
-Rank candidate additions using configurable profiles and inspect their expected capability gains and costs. In the paper's general recommendation experiment, each candidate is assessed independently against the initial workforce; gains are not cumulative.
+Rank candidate additions using configurable profiles and inspect their expected capability gains and costs. Each candidate recommendation is assessed independently against the initial workforce; gains are not cumulative.
 
 ![Four prioritized Work Role recommendations under the Balanced profile](docs/figures/recommendations.png)
 
@@ -73,7 +73,7 @@ Select additions within a total annual budget, accounting for the cost of the cu
 
 ### Threat Scenarios: ransomware in 2024
 
-The paper's threat-planning example uses **Ransomware**, the **2024 ENISA Threat Landscape**, and **Variant A (technique-only context)**. ATTACK-BERT associates the scenario's ATT&CK techniques with NICE Tasks, which are then linked to Work Roles for budget-constrained planning.
+The threat-planning example below uses **Ransomware**, the **2024 ENISA Threat Landscape**, and **Variant A (technique-only context)**. ATTACK-BERT associates the scenario's ATT&CK techniques with NICE Tasks, which are then linked to Work Roles for budget-constrained planning.
 
 The view compares Task Coverage, Weighted Task Coverage, Technique Coverage, and Hybrid Coverage as the annual budget increases. Its investment panel identifies the diminishing-returns point and the workforce composition at that point.
 
@@ -81,7 +81,7 @@ The view compares Task Coverage, Weighted Task Coverage, Technique Coverage, and
 
 *Budget–coverage evolution and workforce planning for the 2024 ransomware scenario under Variant A.*
 
-In the illustrated configuration, the diminishing-returns budget is **$1.25 million**, with **73.3% Hybrid Coverage**. The selected workforce costs **$1,225,160 annually** and contains **nine Work Roles**, including seven additions to the initial team. These values describe the paper example shown in the figure.
+In the illustrated configuration, the diminishing-returns budget is **$1.25 million**, with **73.3% Hybrid Coverage**. The selected workforce costs **$1,225,160 annually** and contains **nine Work Roles**, including seven additions to the initial team. These values describe the example configuration shown in the screenshot.
 
 ## Repository layout
 
@@ -90,7 +90,7 @@ In the illustrated configuration, the diminishing-returns budget is **$1.25 mill
 | [web-force/](web-force/) | Workforce application, configuration, requirements, launcher, and scoring tests |
 | [data/](data/) | NICE Framework snapshot, role costs, and stored ATT&CK–NICE mappings |
 | [data/all_models/](data/all_models/) | 2024 and 2025 mappings for ATTACK-BERT and MiniLM, variants A, B, and C |
-| [docs/figures/](docs/figures/) | Original paper figures displayed in this README |
+| [docs/figures/](docs/figures/) | Application screenshots displayed in this README |
 
 This repository packages the Workforce application and its runtime inputs. It does not include the scenario-generation pipeline, research experiment outputs, or the separate annotation application. The Threat Scenarios view runs on the precomputed mappings supplied in `data/all_models/`.
 
@@ -108,8 +108,6 @@ The baseline retains up to **10 Tasks per technique** with a minimum similarity 
 
 - Keep the supplied NICE snapshot, costs, and stored rankings when reproducing application analyses. Original embedding model revisions and the full generation environment are not pinned by this application package.
 - Coverage quantifies the modeled NICE capabilities and retained ATT&CK–NICE associations; it does not measure real-world incident prevention.
-- The paper's semantic relevance audit uses model-assisted labels, not human-expert ground truth.
-- The README figures are unchanged copies of the PNGs referenced by the paper manuscript. The LaTeX drafts are not required to display them.
 - Saved organization state, local databases, credentials, and virtual environments are excluded from this repository.
 
 ## Tests
