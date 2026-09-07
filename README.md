@@ -92,7 +92,7 @@ In the illustrated configuration, the diminishing-returns budget is **$1.25 mill
 | [data/all_models/](data/all_models/) | 2024 and 2025 mappings for ATTACK-BERT and MiniLM, variants A, B, and C |
 | [docs/figures/](docs/figures/) | Original paper figures displayed in this README |
 
-This repository packages the Workforce application and its runtime inputs. The scenario-generation scripts and the separate annotation application are maintained outside this package.
+This repository packages the Workforce application and its runtime inputs. It does not include the scenario-generation pipeline, research experiment outputs, or the separate annotation application. The Threat Scenarios view runs on the precomputed mappings supplied in `data/all_models/`.
 
 ## Data and reproducibility
 
