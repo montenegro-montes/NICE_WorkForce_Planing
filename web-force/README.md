@@ -34,9 +34,12 @@ to `../data/company_state.json`.
 
 ## Tests
 
-From the repository root:
+The published test suite is `tests/test_scoring_consistency.py`. Run it from the repository root:
 
 ```bash
 web-force/.venv/bin/python -m unittest discover -s web-force/tests -p 'test_scoring_consistency.py'
 ```
 
+The scenario pipeline and its embedding test are maintained in the local research
+workspace and are not included in this repository. They are not required to run
+the Workforce application or the scoring tests above.
