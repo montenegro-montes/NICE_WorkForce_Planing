@@ -6,6 +6,10 @@ The application connects NICE Work Roles, Tasks, Knowledge, and Skills with work
 
 The ransomware case study uses the 2024 and 2025 ENISA Threat Landscape editions, ATTACK-BERT and MiniLM, and three semantic-context variants. Greedy and mixed-integer linear programming (MILP) methods support comparisons of workforce cost and capability coverage.
 
+## Online application
+
+Access the deployed [Workforce application on Streamlit Community Cloud](https://niceworkforceplaning-mzrw9uc9fz2tgsrbrvxj5w.streamlit.app/). No local installation is required.
+
 ## Run the Workforce application
 
 Use **Python 3.12**. From the repository root:
