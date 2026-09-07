@@ -37,6 +37,6 @@ to `../data/company_state.json`.
 From the repository root:
 
 ```bash
-web-force/.venv/bin/python -m unittest discover -s web-force -p 'test_scoring_consistency.py'
+web-force/.venv/bin/python -m unittest discover -s web-force/tests -p 'test_scoring_consistency.py'
 ```
 
