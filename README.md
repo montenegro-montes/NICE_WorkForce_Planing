@@ -87,7 +87,7 @@ In the illustrated configuration, the diminishing-returns budget is **$1.25 mill
 
 | Path | Purpose |
 | --- | --- |
-| [web-force/](web-force/) | Workforce application, configuration, requirements, launcher, and scoring tests |
+| [web-force/](web-force/) | Workforce application, configuration, requirements, and launcher |
 | [data/](data/) | NICE Framework snapshot, role costs, and stored ATT&CK–NICE mappings |
 | [data/all_models/](data/all_models/) | 2024 and 2025 mappings for ATTACK-BERT and MiniLM, variants A, B, and C |
 | [docs/figures/](docs/figures/) | Application screenshots displayed in this README |
@@ -109,12 +109,3 @@ The baseline retains up to **10 Tasks per technique** with a minimum similarity 
 - Keep the supplied NICE snapshot, costs, and stored rankings when reproducing application analyses. Original embedding model revisions and the full generation environment are not pinned by this application package.
 - Coverage quantifies the modeled NICE capabilities and retained ATT&CK–NICE associations; it does not measure real-world incident prevention.
 - Saved organization state, local databases, credentials, and virtual environments are excluded from this repository.
-
-## Tests
-
-Run the Workforce scoring checks from the repository root:
-
-```bash
-web-force/.venv/bin/python -m unittest discover -s web-force -p 'test_scoring_consistency.py'
-```
-
